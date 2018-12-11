@@ -15,7 +15,7 @@ require_relative 'lib/ldap_user'
 
 class LDAPAuthenticator2 < ::Auth::Authenticator
   def name
-    'ldap'
+    'ldap2'
   end
 
   def enabled?
@@ -86,7 +86,7 @@ auth_provider title: 'with CSU.LOCAL',
 
 register_css <<CSS
   .btn {
-    &.ldap {
+    &.ldap2 {
       background-color: #517693;      
     }
   }
