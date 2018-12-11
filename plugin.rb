@@ -84,13 +84,13 @@ auth_provider title: 'with CSU.LOCAL',
   frame_height: 800,
   authenticator: LDAPAuthenticator2.new
 
-register_css <<CSS
-  .btn {
-    &.ldap {
-      background-color: #517693;
-      &:before {
-        content: $fa-var-sitemap2;
-      }
-    }
-  }
-CSS
+#register_css <<CSS
+#  .btn {
+#    &.ldap {
+#      background-color: #517693;
+#      &:before {
+#        content: $fa-var-sitemap2;
+#      }
+#    }
+#  }
+#CSS
