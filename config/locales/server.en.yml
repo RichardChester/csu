@@ -1,0 +1,13 @@
+en:
+  site_settings:
+    ldap2_enabled: "Is CSU.LOCAL LDAP plugin enabled?"
+    ldap2_user_create_mode: "User create mode: auto, list or none"
+    ldap2_lookup_users_by: "Attribute to lookup users by: email or username"
+    ldap2_hostname: "Hostname of CSU.LOCAL LDAP server"
+    ldap2_port: "Connection port to CSU.LOCAL LDAP server"
+    ldap2_method: "Connection method: ssl, tls or plain"
+    ldap2_base: "LDAP base"
+    ldap2_uid: "LDAP uid"
+    ldap2_bind_dn: "LDAP bind dn (needed if LDAP server does not allow anonymous binding)"
+    ldap2_password:  "LDAP bind password (needed if LDAP server does not allow anonymous binding)"
+    ldap2_filter:  "LDAP filter (for group based authentication)"

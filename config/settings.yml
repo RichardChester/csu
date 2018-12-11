@@ -1,0 +1,23 @@
+plugins:
+  ldap2_enabled:
+    default: true
+  ldap2_user_create_mode:
+    default: 'auto'
+  ldap2_lookup_users_by:
+    default: 'email'
+  ldap2_hostname:
+    default: 'adfs.example.com'
+  ldap2_port:
+    default: 389
+  ldap2_method:
+    default: 'plain'
+  ldap2_base:
+    default: 'dc=example,dc=com'
+  ldap2_uid:
+    default: 'sAMAccountName'
+  ldap2_bind_dn:
+    default: ''
+  ldap2_password:
+    default: ''
+  ldap2_filter:
+    default: ''

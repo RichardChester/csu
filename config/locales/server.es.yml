@@ -1,0 +1,13 @@
+es:
+  site_settings:
+    ldap2_enabled: "Está activado el plugin de LDAP?"
+    ldap2_user_create_mode: "Modo de creación de usuario: auto, list o none"
+    ldap2_lookup_users_by: "Atributo para encontrar usuarios por: email or username"
+    ldap2_hostname: "Hostname del servidor LDAP"
+    ldap2_port: "Puerto del servidor LDAP"
+    ldap2_method: "Método de conexión: ssl, tls o plain"
+    ldap2_base: "LDAP base"
+    ldap2_uid: "LDAP uid"
+    ldap2_bind_db: "LDAP bind db (necesario si el servidor LDAP no permite bind anónimo)"
+    ldap2_password:  "LDAP bind password (necesario si el servidor LDAP no permite binding anónimo)"
+    ldap2_filter:  "Filtro LDAP (para especificar permisos por grupos, etc)"
