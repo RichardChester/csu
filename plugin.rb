@@ -78,8 +78,8 @@ class LDAPAuthenticator < ::Auth::Authenticator
   end
 end
 
-auth_provider title: 'with Detica',
-  message: 'Log in with your Detica credentials',
+auth_provider title: 'with CSU.local',
+	message: 'Log in with your csu.local credentials',
   frame_width: 920,
   frame_height: 800,
   authenticator: LDAPAuthenticator.new
