@@ -15,7 +15,7 @@ require_relative 'lib/ldap_user'
 
 class LDAPAuthenticator2 < ::Auth::Authenticator
   def name
-    'ldap'
+    'ldap2'
   end
 
   def enabled?
