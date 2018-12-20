@@ -15,7 +15,7 @@ require_relative 'lib/ldap_user'
 
 class LDAPAuthenticator2 < ::Auth::Authenticator
   def name
-    'ldap'
+    'ldap2'
   end
 
   def enabled?
@@ -28,7 +28,7 @@ class LDAPAuthenticator2 < ::Auth::Authenticator
 
   def register_middleware(omniauth)
     omniauth.configure{ |c| c.form_css = File.read(File.expand_path("../css/form.css", __FILE__)) }
-    omniauth.provider :ldap,
+    omniauth.provider :ldap2,
       setup:  -> (env) {
         env["omniauth.strategy"].options.merge!(
           host: SiteSetting.ldap2_hostname,
